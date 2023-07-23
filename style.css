@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:gilroy;
+}
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+#page1{
+    min-height: 100vh;
+    width: 100%;
+    /* background-color: red; */
+    position: relative;
+    padding: 60px;
+    padding-top: 0;
+
+
+}
+#nav{
+    padding-top: 60px;
+    position: sticky;
+    top: 0;
+    background-color: #fff;
+}
+#nav svg{
+    fill: #000;
+
+}
+
+#center{
+   
+    height: 130vh;
+    width: 65%;
+    background-image: url(https://media.gucci.com/dynamic/b3c8/hj0zGAzYfmKA5b+KMGgjOzBOqftbqLgl3Ikj+op4yC3i8u28c5adixKclXHOawWXzHh019bgDQKmIqHq8GLu9tU6Qdj3+FaNqIE+9_41B+ymtpnzVeT_W86nlHzroDCMpXQIt4CQC2Dh_wrhugRt+IpFEnyeF4I5uCN97mYf0FZp0t1OwTX_3ZvCYc1FeVybpdAHsyQPRuuwJpED4qjr8_PYunOtb3sUW9bNenkpWaZMBQSx5895Mx_zO3APDzXlpn1lqExvGIqBICl1Z3+hIeL4NYUX63pjRKLWlsfRSTk=/Gucci_Desktop_Routing_2UP_GQJannik-2-July23_3x4.png);
+    background-size: cover;
+    background-position: top;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+}
